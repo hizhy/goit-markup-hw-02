@@ -43,6 +43,10 @@ body {
     color: var(--accent-color);
 }
 
+.current .link {
+    color: var(--accent-color);
+}
+
 .title {
     color: var(--sec-text-color);
 }

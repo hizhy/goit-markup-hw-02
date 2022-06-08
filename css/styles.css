@@ -1,7 +1,59 @@
+:root {
+    --text-color:#757575;
+    --sec-text-color:#212121;
+    --bg-color:#ffffff;
+    --hero-bg-color:#2F303A;
+    --sec-bg-color:#F5F4FA;
+    --accent-color:#2196F3;
+}
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
 
-/*  */
+
+/*  основний колір тексту #757575 */
+/* додатковий колір тексту #212121; */
+/* вторинний колір фону #F5F4FA; */
+/* колір фону підвалу #2F303A; */
+/* колір тексту підвалу rgba(255,255,255,0.6) */
+/* акцент #2196F3; */
+
+.header {
+    font-weight: 500;
+}
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.list {
+    list-style: none;
+}
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+}
+.navigate .link {
+    color: var(--sec-text-color);    
+}
+.link:hover, 
+.link:focus {
+    color: var(--accent-color);
+}
+
+.title {
+    color: var(--sec-text-color);
+}
+.hero {
+    background-color: var(--hero-bg-color);
+}
+
+.team {
+    background-color: var(--sec-bg-color);
+}
+
+.footer {
+    background-color: var(--hero-bg-color);
+}
